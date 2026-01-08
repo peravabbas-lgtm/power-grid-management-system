@@ -1,2 +1,2 @@
 # power-grid-management-system
-A console-based simulation that models power distribution, demand, overload detection, and outage handling across multiple regions.
+The Power Grid Management System is a C++ simulation that models how electrical power is distributed across multiple regions under constrained supply. The system tracks regional demand, capacity limits, and operational status, while detecting overloads and simulating outages. The project emphasizes object-oriented design, state management, and real-world systems thinking.
