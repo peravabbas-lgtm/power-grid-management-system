@@ -1,0 +1,23 @@
+1200
+3
+Apple Bee
+COMMERCIAL
+200
+300
+1
+2
+Yoe Anna
+Erica Hale
+Cypress
+RESIDENTIAL
+200
+300
+1
+0
+Arch Linux
+RESIDENTIAL
+250
+100
+0
+1
+Isaac Hensley

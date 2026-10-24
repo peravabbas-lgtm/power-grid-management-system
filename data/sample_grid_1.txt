@@ -1,0 +1,17 @@
+1300
+2
+Lower Point
+COMMERCIAL
+500
+600
+1
+1
+Bobby Bob
+Downtown Bayside
+COMMERCIAL
+200
+400
+1
+2
+Anna Ann
+Apple App
