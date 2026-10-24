@@ -1,0 +1,11 @@
+# Compiled programs
+*.exe
+*.out
+power_grid
+*.o
+*.obj
+
+# Editor and IDE files
+.vs/
+.vscode/
+*.user
