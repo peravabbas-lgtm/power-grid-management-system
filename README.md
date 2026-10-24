@@ -22,6 +22,29 @@ A console-based power grid management program written in C++. The program allows
 - Save updated grid information to a text file
 - Load a different grid file while the program is running
 
+## How to Run
+
+Compile with g++:
+
+```bash
+g++ main.cpp -o power_grid
+```
+
+Run the program:
+
+```bash
+./power_grid
+```
+
+(On Windows, run `power_grid.exe` instead.)
+
+When prompted, enter the path to a data file. Two sample grids are included:
+
+```text
+data/sample_grid_1.txt
+data/sample_grid_2.txt
+```
+
 ## How the Program Works
 
 The program begins by asking the user for the name of a data file. It loads the total power supply and information about each district into an array of structures.
@@ -56,3 +79,50 @@ Main Menu
 6- Save
 7- Load
 8- Exit
+```
+
+## Data File Format
+
+Grid files are plain text, one value per line:
+
+```text
+<total power supply in MW>
+<number of districts>
+<district name>
+<district type>
+<number of residents>
+<power required in MW>
+<has power: 1 or 0>
+<number of technicians>
+<technician name, one line each>
+```
+
+The district block repeats once per district. Example (`data/sample_grid_1.txt`):
+
+```text
+1300
+2
+Lower Point
+COMMERCIAL
+500
+600
+1
+1
+Bobby Bob
+Downtown Bayside
+COMMERCIAL
+200
+400
+1
+2
+Anna Ann
+Apple App
+```
+
+## Project Structure
+
+```text
+main.cpp                 Program source code
+data/sample_grid_1.txt   Sample grid with 2 districts
+data/sample_grid_2.txt   Sample grid with 3 districts
+```
